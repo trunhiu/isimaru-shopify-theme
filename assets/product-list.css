@@ -67,8 +67,8 @@ ul.breadcrumb li a:hover {
 .product__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    gap: 20px;
+    padding: 0 15px;
 }
 .product__item {
     width: 23%;
@@ -359,4 +359,10 @@ ul.breadcrumb_Sp li a:hover {
     background: #0e293a;
     color: white;
     text-align: center;
+}
+.dot {
+    font-size: 8px;
+}
+.hide {
+    display: none;
 }
